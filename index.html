@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Go Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="content">
+          <div class="title">
+            <h1 class="titleh1">🛒 Let's Go Shopping!! 🛒</h1>
+          </div>
+
+          <div class="submition">
+            <input
+              type="text"
+              name="input-text"
+              id="input-text"
+              class="input-text"
+              placeholder="What do you need?"
+              required
+            />
+            <button
+              class="submit-button"
+              id="submit-button"
+              onclick="submitItem()"
+            >
+              Submit
+            </button>
+          </div>
+          <div class="grocery-content" id="grocery-content">
+            <div class="list" id="list"></div>
+            <button class="clear-button" onclick="clearList()">
+              Clear List
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
