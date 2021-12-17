@@ -122,8 +122,8 @@ let createListItem = (id, value) => {
   element.innerHTML = `
     <p class="item-title">${value}</p> 
     <div class="button-container"> 
-        <button class="edit-button">V</button> 
-        <button class="delete-button">X</button> 
+        <button class="edit-button"><i class="fas fa-edit"></i></button> 
+        <button class="delete-button"><i class="fas fa-trash"></i></button> 
     </div>`;
 
   const deleteBtn = element.querySelector(".delete-button");

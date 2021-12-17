@@ -94,3 +94,22 @@ h1 {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 0.8rem;
 }
+
+.item-title {
+  font-size: 2rem;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  font-size: 3rem;
+  transition: all ease 0.3s;
+}
